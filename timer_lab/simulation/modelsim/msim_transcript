@@ -1,0 +1,79 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do top_level_cronometro_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Caio/Desktop/top_level_cronometro/top_level_cronometro.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level_cronometro
+# -- Compiling architecture a_top_level_cronometro of top_level_cronometro
+# vcom -93 -work work {C:/Users/Caio/Desktop/top_level_cronometro/divisor.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DIVISOR
+# -- Compiling architecture x of DIVISOR
+# vcom -93 -work work {C:/Users/Caio/Desktop/top_level_cronometro/cronometro.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cronometro
+# -- Compiling architecture a_cronometro of cronometro
+# vcom -93 -work work {C:/Users/Caio/Desktop/top_level_cronometro/count_10_cent.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity count_10_cent
+# -- Compiling architecture a_count_10_cent of count_10_cent
+# vcom -93 -work work {C:/Users/Caio/Desktop/top_level_cronometro/count_16.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity count_16
+# -- Compiling architecture a_count_16 of count_16
+# 
+# Load canceled
+vcom -reportprogress 300 -work work C:/Users/Caio/Desktop/top_level_cronometro/tb/top_level_cronometro_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level_cronometro_tb
+# -- Compiling architecture top_level_cronometro_tb of top_level_cronometro_tb
+vsim +altera -do top_level_cronometro_run_msim_rtl_vhdl.do -l msim_transcript -gui rtl_work.top_level_cronometro_tb
+# vsim +altera -do top_level_cronometro_run_msim_rtl_vhdl.do -l msim_transcript -gui rtl_work.top_level_cronometro_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading rtl_work.top_level_cronometro_tb(top_level_cronometro_tb)
+# Loading rtl_work.top_level_cronometro(a_top_level_cronometro)
+# Loading rtl_work.divisor(x)
+# Loading rtl_work.cronometro(a_cronometro)
+# ** Failure: (vsim-3817) Port "clr_cronometro" of entity "cronometro" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_cronometro_tb/uut/cronometro_pm File: C:/Users/Caio/Desktop/top_level_cronometro/cronometro.vhd Line: 9
+# Loading rtl_work.count_10_cent(a_count_10_cent)
+# ** Fatal: Bad library format, library not compiled with ALTERA compiler.
+#    Time: 0 ps  Iteration: 0  Instance: /top_level_cronometro_tb/uut/cronometro_pm/count_cent_pm File: C:/Users/Caio/Desktop/top_level_cronometro/cronometro.vhd Line: 56
+# FATAL ERROR while loading design
+# Error loading design
