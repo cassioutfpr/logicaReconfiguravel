@@ -1,0 +1,227 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Caio\Desktop\top_level_cronometro\simulation\modelsim
+Ecount_10_cent
+Z1 w1568243601
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Caio\Desktop\top_level_cronometro\simulation\modelsim
+Z6 8C:/Users/Caio/Desktop/top_level_cronometro/count_10_cent.vhd
+Z7 FC:/Users/Caio/Desktop/top_level_cronometro/count_10_cent.vhd
+l0
+L5
+VYnD4R6W?=EBXfABH:dmXo1
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1568345919.929000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Caio/Desktop/top_level_cronometro/count_10_cent.vhd|
+Z11 !s107 C:/Users/Caio/Desktop/top_level_cronometro/count_10_cent.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 BL0zhJQPLm5hKeIPKPo_J2
+!i10b 1
+Aa_count_10_cent
+R2
+R3
+R4
+DEx4 work 13 count_10_cent 0 22 YnD4R6W?=EBXfABH:dmXo1
+l28
+L14
+VSLO`;gME5FCmCUT6574:?2
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 =T=SjjEkMM41=?kFlG5U81
+!i10b 1
+Ecount_16
+Z14 w1567996348
+R2
+R3
+R4
+R5
+Z15 8C:/Users/Caio/Desktop/top_level_cronometro/count_16.vhd
+Z16 FC:/Users/Caio/Desktop/top_level_cronometro/count_16.vhd
+l0
+L5
+VN2fjaHoX?316f@bTSamhC1
+R8
+31
+Z17 !s108 1568345920.835000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Caio/Desktop/top_level_cronometro/count_16.vhd|
+Z19 !s107 C:/Users/Caio/Desktop/top_level_cronometro/count_16.vhd|
+R12
+R13
+!s100 UHT]kTlU97ccSH_A9Sc590
+!i10b 1
+Aa_count_16
+R2
+R3
+R4
+DEx4 work 8 count_16 0 22 N2fjaHoX?316f@bTSamhC1
+l16
+L14
+VIdK8bmINJcekbk`5@Q`J;1
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 N=nbkzlh;fAcXh=gQ5n8z2
+!i10b 1
+Ecronometro
+Z20 w1568335192
+R2
+R3
+R4
+R5
+Z21 8C:/Users/Caio/Desktop/top_level_cronometro/cronometro.vhd
+Z22 FC:/Users/Caio/Desktop/top_level_cronometro/cronometro.vhd
+l0
+L5
+VzKJ?GBCjF>ARiKT7U1n`A1
+R8
+31
+Z23 !s108 1568345918.819000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/Caio/Desktop/top_level_cronometro/cronometro.vhd|
+Z25 !s107 C:/Users/Caio/Desktop/top_level_cronometro/cronometro.vhd|
+R12
+R13
+!s100 zQDVmU[4lNLom8R1SH@2L2
+!i10b 1
+Aa_cronometro
+R2
+R3
+R4
+DEx4 work 10 cronometro 0 22 zKJ?GBCjF>ARiKT7U1n`A1
+l49
+L31
+V[;?X:7:YhdCRYlL8>]K1d1
+R8
+31
+R23
+R24
+R25
+R12
+R13
+!s100 1S;clce>[cFOM;MBmPgK_1
+!i10b 1
+Edivisor
+Z26 w1568345316
+R2
+R3
+R4
+R5
+Z27 8C:/Users/Caio/Desktop/top_level_cronometro/divisor.vhd
+Z28 FC:/Users/Caio/Desktop/top_level_cronometro/divisor.vhd
+l0
+L5
+VE[UkI1Ez9jNAUJZV0JOn02
+R8
+31
+Z29 !s108 1568345918.436000
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/Caio/Desktop/top_level_cronometro/divisor.vhd|
+Z31 !s107 C:/Users/Caio/Desktop/top_level_cronometro/divisor.vhd|
+R12
+R13
+!s100 N^d6oWhEaNdPa1S:5WV?c1
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 7 divisor 0 22 E[UkI1Ez9jNAUJZV0JOn02
+l19
+L14
+V=9KIW0O6jP`JJhXSIdTkX3
+R8
+31
+R29
+R30
+R31
+R12
+R13
+!s100 3@Je5N;h2<M^8mFSVfj<:0
+!i10b 1
+Etop_level_cronometro
+Z32 w1568338041
+R2
+R3
+R4
+R5
+Z33 8C:/Users/Caio/Desktop/top_level_cronometro/top_level_cronometro.vhd
+Z34 FC:/Users/Caio/Desktop/top_level_cronometro/top_level_cronometro.vhd
+l0
+L5
+V@@GD<ZJ8blk6ijJSUSPKW1
+R8
+31
+Z35 !s108 1568345917.894000
+Z36 !s90 -reportprogress|300|-93|-work|work|C:/Users/Caio/Desktop/top_level_cronometro/top_level_cronometro.vhd|
+Z37 !s107 C:/Users/Caio/Desktop/top_level_cronometro/top_level_cronometro.vhd|
+R12
+R13
+!s100 >lF[SIkkgzL;CL^hm5hd22
+!i10b 1
+Aa_top_level_cronometro
+R2
+R3
+R4
+DEx4 work 20 top_level_cronometro 0 22 @@GD<ZJ8blk6ijJSUSPKW1
+l62
+L28
+VBjj0E0Q3TH7oO[?SCC;jD2
+R8
+31
+R35
+R36
+R37
+R12
+R13
+!s100 kR2`Hh:zTQIXZgHI@CB4:0
+!i10b 1
+Etop_level_cronometro_tb
+Z38 w1568345615
+R2
+R3
+R4
+R5
+Z39 8C:/Users/Caio/Desktop/top_level_cronometro/tb/top_level_cronometro_tb.vhd
+Z40 FC:/Users/Caio/Desktop/top_level_cronometro/tb/top_level_cronometro_tb.vhd
+l0
+L6
+VM:FNG1^jzfHdKYIZKiX_83
+!s100 lWfn<2W:73=dCaCFTFL_G0
+R8
+32
+!i10b 1
+Z41 !s108 1568345951.863000
+Z42 !s90 -reportprogress|300|-work|work|C:/Users/Caio/Desktop/top_level_cronometro/tb/top_level_cronometro_tb.vhd|
+Z43 !s107 C:/Users/Caio/Desktop/top_level_cronometro/tb/top_level_cronometro_tb.vhd|
+Z44 o-work work -O0
+R13
+Atop_level_cronometro_tb
+R2
+R3
+R4
+DEx4 work 23 top_level_cronometro_tb 0 22 M:FNG1^jzfHdKYIZKiX_83
+l35
+L10
+VeD?zz[Z27UoD4XV3`eOUD1
+!s100 YfeJ_0me5ebFbdWOYV<ao1
+R8
+32
+!i10b 1
+R41
+R42
+R43
+R44
+R13

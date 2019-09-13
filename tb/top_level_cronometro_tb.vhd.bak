@@ -1,0 +1,42 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all; 
+
+
+entity count_10_cent_tb is
+
+end entity;
+
+architecture a_count_10_cent_tb of count_10_cent_tb is
+ 	component count_10_cent is
+ 		port( clk_count_10_cent 	: in std_logic;
+				rst_count_10_cent 	: in std_logic;
+				wr_en_count_10_cent 	: in std_logic;
+				clr_count_10_cent		: in std_logic;
+			   en_carry_10_cent	   : out std_logic;
+				data_out_10_cent		: out unsigned(3 downto 0)
+ 		);
+ 	end component;
+
+ signal clk_count_10_cent, rst_count_10_cent, wr_en_count_10_cent, clr_count_10_cent, en_carry_10_cent : std_logic;
+ signal data_out_10_cent : unsigned(3 downto 0);
+
+begin
+	 uut: count_10_cent port map(clk_count_10_cent=>clk_count_10_cent,rst_count_10_cent=>rst_count_10_cent,wr_en_count_10_cent=>wr_en_count_10_cent,clr_count_10_cent=>clr_count_10_cent,
+	 en_carry_10_cent=>en_carry_10_cent,data_out_10_cent=>data_out_10_cent);
+	 process -- sinal de clock
+	 begin
+		 wr_en_count_10_cent <= '1';
+		 clk_count_10_cent <= '0';
+		 wait for 50 ns;
+		 clk_count_10_cent <= '1';
+		 wait for 50 ns;
+	 end process;
+		 process -- sinal de reset
+		 begin
+		 rst_count_10_cent <= '1';
+		 wait for 50 ns;
+		 rst_count_10_cent <= '0';
+		 wait for 10000 ns;
+	 end process;
+end architecture;
