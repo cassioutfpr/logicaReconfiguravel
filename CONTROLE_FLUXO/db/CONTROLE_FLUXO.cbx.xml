@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="CONTROLE_FLUXO">
+		<CBX_INST_ENTRY INSTANCE_NAME="|CONTROLE_FLUXO|BRAM:bram_read_pm|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_efo1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CONTROLE_FLUXO|BRAM:bram_write_pm|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_efo1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CONTROLE_FLUXO|FIFO:fifo_pm|scfifo:scfifo_component" CBX_FILE_NAME="scfifo_j2a1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
